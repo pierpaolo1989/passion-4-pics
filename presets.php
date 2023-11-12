@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html  >
 <head>
-  <!-- Site made with Mobirise Website Builder v5.2.0, https://mobirise.com -->
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="generator" content="Mobirise v5.2.0, mobirise.com">
@@ -17,59 +16,17 @@
   <link rel="stylesheet" href="assets/socicon/css/styles.css">
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
-  
 </head>
 <body>
   
-  <section class="menu menu3 cid-spaizPbfoR" once="menu" id="menu3-7">
-    
-    <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
-        <div class="container">
-             <div class="navbar-brand">
-                <span class="navbar-logo">
-                    <a href="index.html">
-                        <img src="logo.png" alt="passion4pics" style="height: 3rem;">
-                    </a>
-                </span>
-                <span class="navbar-caption-wrap"><a class="navbar-caption text-black display-7" href="index.html">passion4pics</a></span>
-            </div>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <div class="hamburger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link text-black display-4" href="#">
-                            About us</a></li>
-                    <li class="nav-item"><a class="nav-link link text-black display-4" href="presets.html">Presets</a></li>
-                    <li class="nav-item"><a class="nav-link link text-black display-4" href="filters.html" target="_blank">Filters</a>
-                    </li></ul>
-                <div class="icons-menu">
-                    <a class="iconfont-wrapper" href="https://www.facebook.com/_passion4pics-110868584418609/about/?ref=page_internal" target="_blank">
-                        <span class="p-2 mbr-iconfont socicon-facebook socicon"></span>
-                    </a>
-                    <a class="iconfont-wrapper" href="https://www.instagram.com/_passion4pics/" target="_blank">
-                        <span class="p-2 mbr-iconfont socicon-instagram socicon"></span>
-                    </a>
-                    
-                </div>
-                
-            </div>
-        </div>
-    </nav>
-</section>
+  <!-- HEADER -->
+    <?php include(dirname(__FILE__)) .'views/layout/header.php' ?>
 
-<section class="content4 cid-spapLhO2J3" id="content4-9" style = "margin: 1%;">
-    
-    
-    <div class="container-fluid">
-        <div class="row justify-content-center">
-            <div class="title col-md-12 col-lg-10">
-                <h4 class="mbr-section-subtitle align-center mbr-fonts-style mb-4 display-5"></h4>
-				
+    <section class="content4 cid-spapLhO2J3" id="content4-9" style = "margin: 1%;">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="title col-md-12 col-lg-10">
+                    <h4 class="mbr-section-subtitle align-center mbr-fonts-style mb-4 display-5"></h4>
 				<div class="row" style="margin-bottom: 2%">
 		<img style="width:15%;" src="data:image/png;base64,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">
 	</div>
@@ -151,19 +108,7 @@
     </div>
 </section>
 <section style="display:none !important; background-color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif; color:#aaa; font-size:12px; padding: 0; align-items: center; display: flex;"><a href="https://mobirise.site/g" style="flex: 1 1; height: 3rem; padding-left: 1rem;"></a><p style="flex: 0 0 auto; margin:0; padding-right:1rem;"> <a href="#" style="color:#aaa;"></a></p></section><script src="assets/web/assets/jquery/jquery.min.js"></script>  <script src="assets/popper/popper.min.js"></script>  <script src="assets/tether/tether.min.js"></script>  <script src="assets/bootstrap/js/bootstrap.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/dropdown/js/nav-dropdown.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>  <script src="assets/theme/js/script.js"></script>   
-<section class="footer7 cid-spaiEcN4DU" once="footers" id="footer7-8">
-
-    <div class="container">
-        <div class="media-container-row align-center mbr-white">
-            <div class="col-12">
-                <p class="mbr-text mb-0 mbr-fonts-style display-7">
-                    © Copyright 2021 passion4pics - All Rights Reserved<br>
-                    <a href="mailto:info@passion4pics.net">Email: info@passion4pics.net</a>
-                </p>
-            </div>
-        </div>
-    </div>
-</section> 
+<?php include include(dirname(__FILE__)) .'/views/layout/footer.php' ?>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-FT0DP0DEGJ"></script>
 <script>
