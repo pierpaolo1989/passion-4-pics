@@ -27,9 +27,7 @@
 </head>
 
 <body>
-
     <section class="menu menu3 cid-spaizPbfoR" once="menu" id="menu3-0">
-
         <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
             <div class="container">
                 <div class="navbar-brand">
@@ -196,23 +194,12 @@
         </div>
 
     </section>
-
-    <section class="footer7 cid-spaiEcN4DU" once="footers" id="footer7-1">
-        <div class="container">
-            <div class="media-container-row align-center mbr-white">
-                <div class="col-12">
-                    <p class="mbr-text mb-0 mbr-fonts-style display-7">
-                        © Copyright 2021 passion4pics - All Rights Reserved<br>
-                        <a href="mailto:info@passion4pics.net">Email: info@passion4pics.net</a>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
+    <!-- FOOTER -->
+    <?php include 'footer.php' ?>
     <section
         style="display:none !important;background-color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif; color:#aaa; font-size:12px; padding: 0; align-items: center; display: flex;">
         <a href="https://mobirise.site/i" style="flex: 1 1; height: 3rem; padding-left: 1rem;"></a>
-        <p style="flex: 0 0 auto; margin:0; padding-right:1rem;">Web page was <a href="https://mobirise.site/h"
+        <p style="flex: 0 0 auto; margin:0; padding-right:1rem;">Web page was <a href="#"
                 style="color:#aaa;">started with</a> Mobirise</p>
     </section>
     <script src="assets/web/assets/jquery/jquery.min.js"></script>
