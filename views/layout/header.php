@@ -9,7 +9,7 @@
                 </a>
             </span>
             <span class="navbar-caption-wrap"><a class="navbar-caption text-black display-7"
-                    href="index.html">passion4pics</a></span>
+                    href="index.php">passion4pics</a></span>
         </div>
         <button class="navbar-toggler" type="button" data-toggle="collapse"
             data-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false"
@@ -26,8 +26,8 @@
                 <li class="nav-item"><a class="nav-link link text-black display-4" href="#">
                         About us</a></li>
                 <li class="nav-item"><a class="nav-link link text-black display-4"
-                        href="presets.html">Presets</a></li>
-                <li class="nav-item"><a class="nav-link link text-black display-4" href="filters.html"
+                        href="presets.php">Presets</a></li>
+                <li class="nav-item"><a class="nav-link link text-black display-4" href="filters.php"
                         target="_blank">Filters</a>
                 </li>
             </ul>

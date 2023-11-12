@@ -28,7 +28,6 @@
 <body>
     <!-- HEADER -->
     <?php include 'views/layout/header.php' ?>
-    
     <section class="testimonials1 cid-spaiTlABRY" id="testimonials1-3">
         <div class="container">
             <div class="row align-items-center">
@@ -143,7 +142,6 @@
                 </div>
             </div>
         </div>
-
     </section>
     <!-- FOOTER -->
     <?php include 'views/layout/footer.php' ?>

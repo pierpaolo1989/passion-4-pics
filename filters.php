@@ -70,7 +70,7 @@
     </div>
 
    <!-- FOOTER -->
-   <?php include 'footer.php' ?>
+   <?php include 'views/layout/footer.php' ?>
 
     <!-- SCRIPTS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.3.1/p5.min.js"></script>
