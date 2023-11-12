@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <!-- Site made with Mobirise Website Builder v5.2.0, https://mobirise.com -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="generator" content="Mobirise v5.2.0, mobirise.com">
@@ -12,7 +10,6 @@
     <meta name="description" content="Contents for amateur photographers">
     <meta name="keywords" content="Photo, presets, courses, repost, galleries">
     <meta name="author" content="Pierpaolo Di Dato">
-
     <title>filters</title>
     <link rel="stylesheet" href="assets/tether/tether.min.css">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
@@ -27,57 +24,8 @@
 </head>
 
 <body>
-
-    <section class="menu menu3 cid-spaizPbfoR" once="menu" id="menu3-7">
-
-        <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
-            <div class="container">
-                <div class="navbar-brand">
-                    <span class="navbar-logo">
-                        <a href="index.html">
-                            <img src="logo.png" alt="passion4pics" style="height: 3rem;">
-                        </a>
-                    </span>
-                    <span class="navbar-caption-wrap"><a class="navbar-caption text-black display-7"
-                            href="index.html">passion4pics</a></span>
-                </div>
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <div class="hamburger">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true">
-                        <li class="nav-item"><a class="nav-link link text-black display-4" href="#">
-                                About us</a></li>
-                        <li class="nav-item"><a class="nav-link link text-black display-4"
-                                href="presets.html">Presets</a></li>
-                        <li class="nav-item"><a class="nav-link link text-black display-4" href="filters.html"
-                                target="_blank">Filters</a>
-                        </li>
-                    </ul>
-                    <div class="icons-menu">
-                        <a class="iconfont-wrapper"
-                            href="https://www.facebook.com/_passion4pics-110868584418609/about/?ref=page_internal"
-                            target="_blank">
-                            <span class="p-2 mbr-iconfont socicon-facebook socicon"></span>
-                        </a>
-                        <a class="iconfont-wrapper" href="https://www.instagram.com/_passion4pics/" target="_blank">
-                            <span class="p-2 mbr-iconfont socicon-instagram socicon"></span>
-                        </a>
-
-                    </div>
-
-                </div>
-            </div>
-        </nav>
-    </section>
-
+    <!-- HEADER -->
+    <?php include 'views/layout/header.php' ?>
     <div id="contenitore">
         <div class="row">
             <div class="col-lg-6" id="left-container">
@@ -121,19 +69,8 @@
 
     </div>
 
-    <section class="footer7 cid-spaiEcN4DU" once="footers" id="footer7-8">
-
-        <div class="container">
-            <div class="media-container-row align-center mbr-white">
-                <div class="col-12">
-                    <p class="mbr-text mb-0 mbr-fonts-style display-7">
-                        © Copyright 2021 passion4pics - All Rights Reserved<br>
-                        <a href="mailto:info@passion4pics.net">Email: info@passion4pics.net</a>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
+   <!-- FOOTER -->
+   <?php include 'views/layout/footer.php' ?>
 
     <!-- SCRIPTS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.3.1/p5.min.js"></script>
