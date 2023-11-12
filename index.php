@@ -144,7 +144,7 @@
         </div>
     </section>
     <!-- FOOTER -->
-    <?php include 'views/layout/footer.php' ?>
+    <?php include '../views/layout/footer.php' ?>
     <section
         style="display:none !important;background-color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif; color:#aaa; font-size:12px; padding: 0; align-items: center; display: flex;">
         <a href="https://mobirise.site/i" style="flex: 1 1; height: 3rem; padding-left: 1rem;"></a>
