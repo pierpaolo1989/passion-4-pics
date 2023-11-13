@@ -25,7 +25,7 @@
 
 <body>
     <!-- HEADER -->
-    <?php include(dirname(__FILE__)) .'views/layout/header.php' ?>
+    <?php include(dirname(__FILE__)) .'/views/layout/header.php' ?>
     <div id="contenitore">
         <div class="row">
             <div class="col-lg-6" id="left-container">

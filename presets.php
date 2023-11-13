@@ -20,7 +20,7 @@
 <body>
   
 <!-- HEADER -->
-<?php include(dirname(__FILE__)) .'views/layout/header.php' ?>
+<?php include(dirname(__FILE__)) .'/views/layout/header.php' ?>
     <section class="content4 cid-spapLhO2J3" id="content4-9" style = "margin: 1%;">
         <div class="container-fluid">
             <div class="row justify-content-center">
