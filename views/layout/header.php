@@ -4,7 +4,7 @@
     <div class="container">
         <div class="navbar-brand">
             <span class="navbar-logo">
-                <a href="index.html">
+                <a href="index.php">
                     <img src="logo.png" alt="passion4pics" style="height: 3rem;">
                 </a>
             </span>
