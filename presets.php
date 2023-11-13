@@ -17,54 +17,11 @@
   <link rel="stylesheet" href="assets/socicon/css/styles.css">
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
-  
 </head>
 <body>
-  
-  <section class="menu menu3 cid-spaizPbfoR" once="menu" id="menu3-7">
-    
-    <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
-        <div class="container">
-             <div class="navbar-brand">
-                <span class="navbar-logo">
-                    <a href="index.html">
-                        <img src="logo.png" alt="passion4pics" style="height: 3rem;">
-                    </a>
-                </span>
-                <span class="navbar-caption-wrap"><a class="navbar-caption text-black display-7" href="index.html">passion4pics</a></span>
-            </div>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <div class="hamburger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link text-black display-4" href="#">
-                            About us</a></li>
-                    <li class="nav-item"><a class="nav-link link text-black display-4" href="presets.html">Presets</a></li>
-                    <li class="nav-item"><a class="nav-link link text-black display-4" href="filters.html" target="_blank">Filters</a>
-                    </li></ul>
-                <div class="icons-menu">
-                    <a class="iconfont-wrapper" href="https://www.facebook.com/_passion4pics-110868584418609/about/?ref=page_internal" target="_blank">
-                        <span class="p-2 mbr-iconfont socicon-facebook socicon"></span>
-                    </a>
-                    <a class="iconfont-wrapper" href="https://www.instagram.com/_passion4pics/" target="_blank">
-                        <span class="p-2 mbr-iconfont socicon-instagram socicon"></span>
-                    </a>
-                    
-                </div>
-                
-            </div>
-        </div>
-    </nav>
-</section>
-
+<!-- HEADER -->
+<?php include(dirname(__FILE__)). 'views/layout/header.php' ?>
 <section class="content4 cid-spapLhO2J3" id="content4-9" style = "margin: 1%;">
-    
-    
     <div class="container-fluid">
         <div class="row justify-content-center">
             <div class="title col-md-12 col-lg-10">
@@ -151,19 +108,8 @@
     </div>
 </section>
 <section style="display:none !important; background-color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif; color:#aaa; font-size:12px; padding: 0; align-items: center; display: flex;"><a href="https://mobirise.site/g" style="flex: 1 1; height: 3rem; padding-left: 1rem;"></a><p style="flex: 0 0 auto; margin:0; padding-right:1rem;"> <a href="#" style="color:#aaa;"></a></p></section><script src="assets/web/assets/jquery/jquery.min.js"></script>  <script src="assets/popper/popper.min.js"></script>  <script src="assets/tether/tether.min.js"></script>  <script src="assets/bootstrap/js/bootstrap.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/dropdown/js/nav-dropdown.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>  <script src="assets/theme/js/script.js"></script>   
-<section class="footer7 cid-spaiEcN4DU" once="footers" id="footer7-8">
-
-    <div class="container">
-        <div class="media-container-row align-center mbr-white">
-            <div class="col-12">
-                <p class="mbr-text mb-0 mbr-fonts-style display-7">
-                    © Copyright 2021 passion4pics - All Rights Reserved<br>
-                    <a href="mailto:info@passion4pics.net">Email: info@passion4pics.net</a>
-                </p>
-            </div>
-        </div>
-    </div>
-</section> 
+<!--FOOTER -->
+<?php include(dirname(__FILE__)). 'views/layout/footer.php' ?>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-FT0DP0DEGJ"></script>
 <script>

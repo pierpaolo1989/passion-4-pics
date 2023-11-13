@@ -2,7 +2,6 @@
 <html>
 
 <head>
-    <!-- Site made with Mobirise Website Builder v5.2.0, https://mobirise.com -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="generator" content="Mobirise v5.2.0, mobirise.com">
@@ -11,7 +10,6 @@
     <meta name="description" content="Contents for amateur photographers">
     <meta name="keywords" content="Photo, presets, courses, repost, galleries">
     <meta name="author" content="Pierpaolo Di Dato">
-
     <title>Home</title>
     <link rel="stylesheet" href="assets/tether/tether.min.css">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
@@ -24,10 +22,9 @@
     <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
     <link rel="stylesheet" href="style.css" type = "text/css" />
 </head>
-
 <body>
     <!-- HEADER -->
-    <?php include 'views/layout/header.php' ?>
+    <?php include(dirname(__FILE__)). 'views/layout/header.php' ?>
     <section class="testimonials1 cid-spaiTlABRY" id="testimonials1-3">
         <div class="container">
             <div class="row align-items-center">

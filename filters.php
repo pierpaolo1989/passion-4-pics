@@ -25,7 +25,7 @@
 
 <body>
     <!-- HEADER -->
-    <?php include 'views/layout/header.php' ?>
+    <?php include(dirname(__FILE__)). 'views/layout/header.php' ?>
     <div id="contenitore">
         <div class="row">
             <div class="col-lg-6" id="left-container">
@@ -68,10 +68,8 @@
 
 
     </div>
-
    <!-- FOOTER -->
-   <?php include 'views/layout/footer.php' ?>
-
+   <?php include(dirname(__FILE__)). 'views/layout/footer.php' ?>
     <!-- SCRIPTS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.3.1/p5.min.js"></script>
     <script src="main.js"></script>
