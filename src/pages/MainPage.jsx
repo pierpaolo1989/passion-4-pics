@@ -37,8 +37,8 @@ function MainPage() {
                     <div className="row justify-content-center">
                         <div className="col-12 col-md-10">
                             <blockquote>
-                                <h5 class="mbr-section-title mbr-fonts-style mb-2 display-7"><strong>Our mission</strong></h5>
-                                <p class="mbr-text mbr-fonts-style display-4">Your passion makes you a promising amateur but
+                                <h5 className="mbr-section-title mbr-fonts-style mb-2 display-7"><strong>Our mission</strong></h5>
+                                <p className="mbr-text mbr-fonts-style display-4">Your passion makes you a promising amateur but
                                     your ability to earn a living from your photography work makes you a professional
                                     photographer. Get yourself involved in the community and find all you need to become a
                                     professional.</p>
@@ -85,16 +85,16 @@ function MainPage() {
                         <div className="icons d-flex align-items-center col-12 col-md-6 justify-content-end mt-md-0 mt-2 flex-wrap">
                             <a href="https://www.facebook.com/_passion4pics-110868584418609/about/?ref=page_internal"
                                 target="_blank" rel="noreferrer">
-                                <span class="socicon-facebook socicon mbr-iconfont mbr-iconfont-social"></span>
+                                <span className="socicon-facebook socicon mbr-iconfont mbr-iconfont-social"></span>
                             </a>
                             <a href="#" target="_blank">
-                                <span class="socicon-youtube socicon mbr-iconfont mbr-iconfont-social"></span>
+                                <span className="socicon-youtube socicon mbr-iconfont mbr-iconfont-social"></span>
                             </a>
                             <a href="https://www.instagram.com/_passion4pics/" target="_blank" rel="noreferrer">
-                                <span class="socicon-instagram socicon mbr-iconfont mbr-iconfont-social"></span>
+                                <span className="socicon-instagram socicon mbr-iconfont mbr-iconfont-social"></span>
                             </a>
                             <a href="https://www.instagram.com/_passion4pics/" target="_blank" rel="noreferrer">
-                                <span class="socicon-tiktok socicon mbr-iconfont mbr-iconfont-social"></span>
+                                <span className="socicon-tiktok socicon mbr-iconfont mbr-iconfont-social"></span>
                             </a>
                         </div>
                     </div>
