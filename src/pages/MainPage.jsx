@@ -31,7 +31,7 @@ function MainPage() {
                 </div>
             </section>
 
-            <section className="content7 cid-ssp6j0FcSc" id="content7-b">
+            <section className="content7 cid-ssp6j0FcSc bg-secondary" id="content7-b">
 
                 <div className="container">
                     <div className="row justify-content-center">
@@ -67,7 +67,7 @@ function MainPage() {
 
                     </div>
                     <GalleryCarousel />
-                        <ContactFormModal/>
+                    <ContactFormModal/>
                 </div>
             </section>
 
