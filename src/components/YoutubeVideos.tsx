@@ -28,7 +28,7 @@ function YouTubeVideos() {
                 allowFullScreen
               ></iframe>
               <div className="card-body">
-                <h5 className="card-title text-center">{video.title}</h5>
+                <h5 className="card-title text-center text-white">{video.title}</h5>
               </div>
             </div>
           </div>

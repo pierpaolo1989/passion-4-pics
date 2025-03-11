@@ -24,7 +24,7 @@ function Header () {
                     </div>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true">
+                    <ul className="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true">
                         <li className="nav-item"><a className="nav-link link text-black display-4" href="#">
                                 About us</a></li>
                         <li className="nav-item"><a className="nav-link link text-black display-4"
